@@ -107,15 +107,19 @@
 ## 🔄 Fluxo Completo entre Telas
 
 ```
-Login.html
-    ↓ (Fazer login)
-AVA.html
-    ↓ (Card do curso)        → (Linha do tempo)     → (Avatar/Nome)
-SalaAula.html            LinhaTempo.html         PerfilUsuario.html
-    ↓                        ↓                        ↓
+    Login
+      ↓ (Fazer login)
+     AVA
+      ↓(Card do curso)  → (Linha do tempo)     → (Avatar/Nome)
+Sala de Aula              Linha do Tempo         Perfil do Usuário
+      ↓                                               ↓                                    ↓
 (Materiais/Bimestres)    (Ignorar itens)          (Configurações)
-                              ↑_________________________↑
-                         (todos voltam ao cabeçalho para navegar)
+                               ↑_________________________↑
+                               (todos voltam ao cabeçalho para navegar)
+                                                  ↓
+                                      Fazer Logoff (ponto de saída)
+                                                  ↓
+                                                Login 
 ```
 
 ---
